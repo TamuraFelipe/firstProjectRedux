@@ -11,7 +11,9 @@ import * as Styles from "./styles";
 const ProductItem = ({ product }) => {
   return (
     <Styles.ProductContainer>
-      <Styles.ProductImage imageUrl={product.imageUrl}>
+      <Styles.ProductImage 
+      imageUrl={product.imageUrl}
+      >
         <CustomButton startIcon={<BsCartPlus />}>
           Adicionar ao carrinho
         </CustomButton>
