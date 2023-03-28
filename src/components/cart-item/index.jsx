@@ -5,7 +5,7 @@ import {
   removeProductFromCart, 
   increaseProductQuantity,
   decreaseProductQuantity,
-} from "../../Redux/cart/actions";
+} from "../../Redux/cart/slice";
 
 // Styles
 import * as Styles from "./styles";

@@ -26,7 +26,8 @@ export const Buttons = styled.div`
       cursor: pointer;
     }
 
-    &:nth-child(1) {
+    &:nth-child(1),
+    &:nth-child(2) {
       margin-right: 40px;
     }
   }
