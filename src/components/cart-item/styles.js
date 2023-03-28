@@ -8,12 +8,15 @@ export const CartItemContainer = styled.div`
   p {
     color: #222222;
   }
+  svg {
+    color: #222;
+  }
 `;
 
 export const CartItemImage = styled.div`
   background-image: ${(props) => `url('${props.imageUrl}')`};
-  height: 250px;
-  width: 170px;
+  height: 175px;
+  width: 110px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

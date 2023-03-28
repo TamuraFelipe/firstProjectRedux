@@ -30,4 +30,20 @@ export const Buttons = styled.div`
       margin-right: 40px;
     }
   }
+  .cart {
+    position: relative;
+    span {
+      position: absolute;
+      bottom: 15px;
+      right: -15px;
+      background: red;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      font-size: 12px
+    }
+  }
 `;
